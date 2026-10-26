@@ -13,6 +13,9 @@ brew install --cask davidamunga/tap/<name>   # Mac apps
 brew install davidamunga/tap/<name>          # command line tools
 ```
 
+Recent Homebrew versions only load third-party taps you have trusted. If it says the tap is not trusted,
+run `brew trust davidamunga/tap` and try again.
+
 ## What is in here
 
 | Name | Kind | What it is | Install |
