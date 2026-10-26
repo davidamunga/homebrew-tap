@@ -1,6 +1,6 @@
 cask "handset" do
-  version "0.1.1"
-  sha256 "4d09ec05e0391d6949107aa4715bb3be0328737e2a3db17ae23d18146da1ca48"
+  version "0.1.2"
+  sha256 "901a56fbef83116a4def2941b068c6327f3239702e3641acb8d5185b8a4de4b9"
 
   url "https://github.com/davidamunga/handset/releases/download/v#{version}/Handset-#{version}-macos.zip"
   name "Handset"
