@@ -4,7 +4,7 @@ cask "handset" do
 
   url "https://github.com/davidamunga/handset/releases/download/v#{version}/Handset-#{version}-macos.zip"
   name "Handset"
-  desc "Mirror and control an Android phone inside a realistic device frame"
+  desc "Android screen mirror in a phone frame, built on scrcpy"
   homepage "https://github.com/davidamunga/handset"
 
   depends_on cask: "android-platform-tools"
