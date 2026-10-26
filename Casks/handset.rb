@@ -9,7 +9,7 @@ cask "handset" do
 
   depends_on cask: "android-platform-tools"
   depends_on formula: "ffmpeg"
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Handset.app"
   binary "#{appdir}/Handset.app/Contents/MacOS/handset"
